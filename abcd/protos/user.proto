@@ -1,0 +1,27 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Stardust.Grpc.User";
+
+package Stardust.Grpc.User.Service;
+
+service UserGrpc {
+	rpc Demo(DemoRequest) returns (DemoResponse) {}
+
+}
+
+message DemoRequest {
+	string option1=1;
+	int32 option2=2;
+	bool option3=3;
+}
+
+message DemoResponse {
+	string	data=1;
+	string	code=2;
+	string	message=3;
+}
+  
+
+
+
+

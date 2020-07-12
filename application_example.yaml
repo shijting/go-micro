@@ -1,0 +1,8 @@
+sjt:
+  config:
+    address: xxx.xxx.xxx
+    port: 8848
+    path: /nacos
+  service:
+    namespace: go.micro.api
+    name: http.course

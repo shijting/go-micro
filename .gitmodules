@@ -1,0 +1,3 @@
+ [submodule "src/protos"]
+	path = src/protos
+	url = https://gitee.com/xingchen0/stardust.protos.git

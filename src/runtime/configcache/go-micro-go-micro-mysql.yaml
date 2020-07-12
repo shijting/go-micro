@@ -1,0 +1,3 @@
+dsn: mysql57:shijinting0510@tcp(106.53.5.146:3306)/go-micro?charset=utf8mb4&parseTime=True&loc=Local
+maxidle: 3
+maxopen: 10
